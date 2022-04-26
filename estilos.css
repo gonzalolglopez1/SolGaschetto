@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: dimgray;
+    font-family: 'Akshar', sans-serif;
+}
+
+
+.lateral{
+   
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+}
+
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    margin: 40px;
+    width: 40%;
+    height: 700px;
+    border: 1px solid black;
+}
+
+ul li{
+    margin: 80px;
+    text-align: center;
+    border-bottom: 1px solid rgb(122, 121, 121);
+}
+
+.imagen{
+    height: 700px;
+    margin: 40px;
+    width: 100%;
+    background-image: url(./galeriaa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redes a{
+    margin: 5px;
+}
