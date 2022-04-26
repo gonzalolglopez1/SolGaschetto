@@ -15,7 +15,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: stretch;
-    flex-wrap: wrap;
+    
 }
 
 li{
@@ -45,6 +45,7 @@ ul li{
 .imagen{
     height: 700px;
     margin: 40px;
+   
     width: 100%;
     background-image: url(./galeriaa1.jpg);
     background-repeat: no-repeat;
@@ -53,4 +54,35 @@ ul li{
 
 .redes a{
     margin: 5px;
+}
+
+@media (max-width:500px) {
+    .lateral{
+   
+        
+        display: flex;
+        justify-content: stretch;
+        
+    }
+ 
+    nav{
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        align-items: center;   
+        margin: 40px;
+        width: 40%;
+        height: 300px;
+        border: 1px solid black;
+    }
+
+    ul li{
+        margin: 0px;
+        text-align: center;
+        border-bottom: 1px solid rgb(122, 121, 121);
+    }
+    .imagen{
+        
+        height:300px;
+    }
 }
